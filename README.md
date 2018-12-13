@@ -11,12 +11,12 @@ wget https://github.com/Hser2bio/Reex-MN/blob/master/reemn.sh
 chmod +x reemn.sh
 ```
 4. prepare the windows wallet:
-4.1 go to debug console and type:
+- go to debug console and type:
 ```
 getnewaddress MN1
 ```
-4.2 send 1.000 REEX to this address and let atleast confirm by 1 blocks
-4.3 get the MN key and save in txt:
+- send 1.000 REEX to this address and let atleast confirm by 1 blocks
+- get the MN key and save in txt:
 ```
 masternode genkey
 ```

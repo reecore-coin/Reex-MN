@@ -31,16 +31,16 @@ sudo ./reemn.sh
 ```
 masternode outputs
 ```
-will give you something like this:
+will give you something like this: you will only need anote what are between "" 
 ```
-"txhash": "7a1ebb4baadf9ff39bbbfc2d58fd57ff15b65a5096069c8b232d3d312fb4xxxx",
-"outputidx": 1
+txhash: "7a1ebb4baadf9ff39bbbfc2d58fd57ff15b65a5096069c8b232d3d312fb4xxxx",
+outputidx: 1
 ```
 8. open the masternode conf file and put:
 ```
 MN1 IP:PORT masternodekey masternodeouputs txnumber
 ```
-9. save masternode conf file reopen wallet and in masternode section type START
+9. save masternode conf file reopen wallet and in masternode section type START ALL
 10. need atleast 22 blocks to be confirmed and start to work
 
 enjoy :)

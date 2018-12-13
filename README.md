@@ -34,3 +34,7 @@ masternode outputs
 ```
 MN1 IP:PORT masternodekey masternodeoputus number
 ```
+9. save masternode conf file reopen wallet and in masternode section type START
+10. need atleast 22 blocks to be confirmed and start to work
+
+enjoy :)

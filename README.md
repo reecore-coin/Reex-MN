@@ -1,5 +1,5 @@
-# Reex-MN
-Script to setup Masternode
+# Reex-MN: Script to setup Masternode
+
 
 1. Need a fresh VPS with atleast 1 Gb RAM and 15 Gbs free space
 2. download the file: 

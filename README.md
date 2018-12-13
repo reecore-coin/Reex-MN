@@ -24,7 +24,7 @@ masternode genkey
 ```
 sudo ./reemn.sh
 ```
-5. wait to ask genkey and put by control+V the info getted in 4.3 point.
+5. wait to ask genkey and put by control+V the info getted in 4.3 point and give enter to go on.
 6. let finish and note the IP:PORT given at the end of the script execution
 7. back to your windows wallet and get masternode outputs:
 ```

@@ -1,7 +1,7 @@
 # Reex-MN: Script to setup Masternode
 
 
-Need a fresh VPS with atleast 1 Gb RAM and 15 Gbs free space
+Need a fresh VPS ubuntu with atleast 1 Gb RAM and 15 Gbs free space, we suggest: https://billing.virmach.com/aff.php?aff=4314
 1. download the file: 
 ```
 wget https://github.com/Hser2bio/Reex-MN/blob/master/reemn.sh

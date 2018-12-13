@@ -30,6 +30,11 @@ sudo ./reemn.sh
 ```
 masternode outputs
 ```
+will give you something like this:
+```
+"txhash": "7a1ebb4baadf9ff39bbbfc2d58fd57ff15b65a5096069c8b232d3d312fb4xxxx",
+"outputidx": 1
+```
 8. open the masternode conf file and put:
 ```
 MN1 IP:PORT masternodekey masternodeoputus number

@@ -38,7 +38,7 @@ will give you something like this:
 ```
 8. open the masternode conf file and put:
 ```
-MN1 IP:PORT masternodekey masternodeoputus number
+MN1 IP:PORT masternodekey masternodeouputs txnumber
 ```
 9. save masternode conf file reopen wallet and in masternode section type START
 10. need atleast 22 blocks to be confirmed and start to work

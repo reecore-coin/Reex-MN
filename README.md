@@ -39,6 +39,7 @@ outputidx: 1
 8. open the masternode conf file and put:
 ```
 MN1 IP:PORT masternodekey masternodeouputs txnumber
+EXAMPLE: 38.25.122.251:31000 7NEGGttKZojkAzViEYXXXxKTFdAtC2uSiMg8NSFqYVBtN6mYdU 7a1ebb4baadf9ff39bbbfc2d58fd57ff15b65a5096069c8XXX3fb4cb5c 1
 ```
 9. save masternode conf file reopen wallet and in masternode section type START ALL
 10. need atleast 22 blocks to be confirmed and start to work

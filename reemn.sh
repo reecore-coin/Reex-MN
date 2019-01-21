@@ -37,7 +37,7 @@ purgeOldInstallation() {
         sudo rm -rf ~/.Reecore > /dev/null 2>&1
     fi
     #remove binaries and Solarium utilities
-    cd /usr/local/bin && sudo rm reecore-cli reecore-tx reecored > /dev/null 2>&1 && cd
+    cd /usr/local/bin && sudo rm reecore-cli reecored > /dev/null 2>&1 && cd
     echo -e "${GREEN}* Done${NONE}";
 }
 

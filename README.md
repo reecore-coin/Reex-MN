@@ -4,7 +4,7 @@
 Need a fresh VPS ubuntu with atleast 1 Gb RAM and 15 Gbs free space.
 1. download the file: 
 ```
-git clone https://github.com/Hser2bio/Reex-MN.git
+git clone https://github.com/reecore-coin/Reex-MN.git
 cd Reex-MN
 ```
 2. change the permissions:

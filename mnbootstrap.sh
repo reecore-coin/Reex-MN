@@ -26,7 +26,7 @@ echo "Refreshing node, please wait."
 sleep 5
 
 rm -rf "/root/.Reecore/blocks"
-rm -rf "/root/.Reecorechainstate"
+rm -rf "/root/.Reecore/chainstate"
 rm -rf "/root/.Reecore/sporks"
 rm -rf "/root/.Reecore/peers.dat"
 

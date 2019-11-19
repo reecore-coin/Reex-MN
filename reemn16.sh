@@ -139,14 +139,6 @@ maxconnections=256
 masternode=1
 externalip=$NODEIP:$COIN_PORT
 masternodeprivkey=$COINKEY
-#Addnodes
-addnode=35.227.52.152:43210
-addnode=35.237.239.30:43210
-addnode=35.237.108.125:43210
-addnode=104.196.132.52:43210
-addnode=35.196.93.191:43210
-addnode=35.231.132.149:43210
-addnode=35.228.129.243:43210
 EOF
 }
 
@@ -251,10 +243,7 @@ function important_information() {
  echo -e "MASTERNODE GENKEY is: ${RED}$COINKEY${NC}"
  echo -e "Please check ${RED}$COIN_NAME${NC} is running with the following command: ${RED}systemctl status $COIN_NAME.service${NC}"
  echo -e "Use ${RED}$COIN_CLI masternode status${NC} to check your MN."
- if [[ -n $SENTINEL_REPO  ]]; then
- echo -e "${RED}Sentinel${NC} is installed in ${RED}/root/sentinel_$COIN_NAME${NC}"
- echo -e "Sentinel logs is: ${RED}$CONFIGFOLDER/sentinel.log${NC}"
- fi
+ echo -e "Please add this to your masternode.conf in local wallet: MN1 ${GREEN}$NODEIP:$COIN_PORT${NC} ${RED}$COINKEY${NC} + TX + VOUT"  
  }
 
 function setup_node() {

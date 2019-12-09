@@ -43,6 +43,6 @@ MN1 IP:PORT masternodekey masternodeouputs txnumber
 EXAMPLE: 38.25.122.251:31000 7NEGGttKZojkAzViEYXXXxKTFdAtC2uSiMg8NSFqYVBtN6mYdU 7a1ebb4baadf9ff39bbbfc2d58fd57ff15b65a5096069c8XXX3fb4cb5c 1
 ```
 9. save masternode conf file, reopen wallet and in masternode section right-click START ALIAS
-10. You need atleast 22 blocks confirmed before it start to work
+10. You need atleast 15 blocks confirmed before it start to work
 
 enjoy :)

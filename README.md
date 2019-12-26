@@ -1,7 +1,6 @@
 # Reex-MN: Script to setup Masternode
 
-
-You need a fresh VPS ubuntu with atleast 1 Gb RAM and 15 Gbs free space.
+<b> IMPORTANT ADVICE: Auto-masternode script tool is for install in fresh vps, you shouldnt install in machine that already have daemons with spme balance due you will lost. Is suggested have a fresh VPS ubuntu with atleast 1 Gb RAM and 15 Gbs free space.
 1. download the file: 
 ```
 git clone https://github.com/reecore-coin/Reex-MN.git

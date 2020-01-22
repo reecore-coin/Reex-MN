@@ -13,12 +13,12 @@ Change the permissions:
 chmod +x reemn16.sh
 ```
 Prepare the windows wallet:<br>
-a - Go to debug console and type:
+Go to debug console and type:
 ```
 getnewaddress MN1
 ```
-b - Send 15.000 REEX to the address and let it atleast confirm by 1 block
-c - Generate the MN key  (in debug console)and save in txt:
+Send 15.000 REEX to the address and let it atleast confirm by 1 block
+Generate the MN key  (in debug console)and save in txt:
 ```
 masternode genkey
 ```
@@ -26,19 +26,16 @@ Go back to vps and execute the file reemn16.sh:
 ```
 sudo ./reemn16.sh
 ```
-<br>
 <b> For Ubuntu 18x </b><br><br>
 Change the permissions:
-```
-chmod +x reemn18.sh
-```
-Prepare the windows wallet:<br>
-a - Go to debug console and type:
+```chmod +x reemn18.sh```
+Prepare the windows wallet:
+Go to debug console and type:
 ```
 getnewaddress MN1
 ```
-b - Send 15.000 REEX to the address and let it atleast confirm by 1 block
-c - Generate the MN key  (in debug console)and save in txt:
+Send 15.000 REEX to the address and let it atleast confirm by 1 block<br><br>
+Generate the MN key  (in debug console)and save in txt:
 ```
 masternode genkey
 ```
@@ -46,7 +43,6 @@ Go back to vps and execute the file reemn16.sh:
 ```
 sudo ./reemn18.sh
 ```
-
 2. Wait, let it ask for genkey then put it by pressing control+V to paste the info you got in step 3c and press enter to go on.
 3. Let it finish and note the IP:PORT given at the end of the script execution
 4. Go back to your windows wallet (in debug console) and generate masternode outputs:

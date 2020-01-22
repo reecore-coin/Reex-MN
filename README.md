@@ -55,6 +55,7 @@ txhash: "7a1ebb4baadf9ff39bbbfc2d58fd57ff15b65a5096069c8b232d3d312fb4xxxx",
 outputidx: 1
 ```
 you will only need to copy text between ""
+
 5. Open the masternode conf file and put:
 ```
 MN1 IP:PORT masternodekey masternodeouputs txnumber

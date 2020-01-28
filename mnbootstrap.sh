@@ -32,7 +32,7 @@ rm -rf "/root/.Reecore/peers.dat"
 
 echo "Installing bootstrap file..."
 
-cd /root/.Reecore && wget --no-check-certificate https://github.com/reecore-coin/Reex/releases/download/v.1.3.1.0/bootstrap-20191010.zip && unzip bootstrap.zip && rm bootstrap.zip
+cd /root/.Reecore && wget --no-check-certificate https://github.com/reecore-coin/Reex-MN/raw/master/bootstrap.dat
 
 if [ -e /etc/systemd/system/Reecore.service ]; then
   sudo systemctl start Reecore.service

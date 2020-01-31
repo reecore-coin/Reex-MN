@@ -13,6 +13,7 @@ SENTINEL_REPO='N/A'
 COIN_NAME='Reecore'
 COIN_PORT=43210
 RPC_PORT=45210
+COIN_boot='https://github.com/reecore-coin/Reex-MN/releases/download/012020/bootstrap.dat'
 
 NODEIP=$(curl -s4 icanhazip.com)
 
@@ -55,6 +56,14 @@ function download_node() {
   rm -rf $TMP_FOLDER >/dev/null 2>&1
   clear
 }
+
+function download_bootstrap() {
+  echo -e "${GREEN}Downloading Bootstrap${NC}"
+  cd $CONFIGFOLDER >/dev/null 2>&1
+  wget $COIN_boot
+  clear
+}
+
 function configure_systemd() {
   cat << EOF > /etc/systemd/system/$COIN_NAME.service
 [Unit]
@@ -259,4 +268,5 @@ purgeOldInstallation
 checks
 prepare_system
 download_node
+download_bootstrap
 setup_node

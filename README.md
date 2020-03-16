@@ -1,4 +1,4 @@
-# Reex-MN: Script to setup Masternode
+# Reex-MN: AutoScript to setup Masternode
 
 <b>IMPORTANT ADVICE: Auto-masternode script tool is for install in fresh vps, you shouldnt install in machine that already have daemons with some balance due you will lost. Is suggested have a fresh VPS ubuntu with atleast 1 Gb RAM and 15 Gbs free space.</b>
 
@@ -39,7 +39,7 @@ you will only need to copy text between ""
 5. Open the masternode conf file and put:
 ```
 MN1 IP:PORT masternodekey masternodeouputs txnumber
-EXAMPLE: 38.25.122.251:31000 7NEGGttKZojkAzViEYXXXxKTFdAtC2uSiMg8NSFqYVBtN6mYdU 7a1ebb4baadf9ff39bbbfc2d58fd57ff15b65a5096069c8XXX3fb4cb5c 1
+EXAMPLE: 38.25.122.251:43210 7NEGGttKZojkAzViEYXXXxKTFdAtC2uSiMg8NSFqYVBtN6mYdU 7a1ebb4baadf9ff39bbbfc2d58fd57ff15b65a5096069c8XXX3fb4cb5c 1
 ```
 6. Save masternode conf file, reopen wallet and in masternode section right-click START ALIAS
 7. You need atleast 15 blocks confirmed before it start to work

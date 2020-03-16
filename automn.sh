@@ -301,17 +301,17 @@ function important_information() {
  echo -e "$COIN_NAME Masternode is up and running listening on port ${RED}$COIN_PORT${NC}."
  echo -e "Configuration file is: ${RED}$CONFIGFOLDER/$CONFIG_FILE${NC}"
  if (( $UBUNTU_VERSION == 16 || $UBUNTU_VERSION == 18 )); then
-   echo -e "Start: ${RED}systemctl start $COIN_NAME.service${NC}"
-   echo -e "Stop: ${RED}systemctl stop $COIN_NAME.service${NC}"
-   echo -e "Status: ${RED}systemctl status $COIN_NAME.service${NC}"
+   echo -e "Start: ${GREEN}systemctl start $COIN_NAME.service${NC}"
+   echo -e "Stop: ${GREEN}systemctl stop $COIN_NAME.service${NC}"
+   echo -e "Status: ${GREEN}systemctl status $COIN_NAME.service${NC}"
  else
-   echo -e "Start: ${RED}/etc/init.d/$COIN_NAME start${NC}"
-   echo -e "Stop: ${RED}/etc/init.d/$COIN_NAME stop${NC}"
-   echo -e "Status: ${RED}/etc/init.d/$COIN_NAME status${NC}"
+   echo -e "Start: ${GREEN}/etc/init.d/$COIN_NAME start${NC}"
+   echo -e "Stop: ${GREEN}/etc/init.d/$COIN_NAME stop${NC}"
+   echo -e "Status: ${GREEN}/etc/init.d/$COIN_NAME status${NC}"
  fi
- echo -e "VPS_IP:PORT ${RED}$NODEIP:$COIN_PORT${NC}"
- echo -e "MASTERNODE PRIVATEKEY is: ${RED}$COINKEY${NC}"
- echo -e "Check if $COIN_NAME is running by using the following command:\n${RED}ps -ef | grep $COIN_DAEMON | grep -v grep${NC}"
+ echo -e "VPS_IP:PORT ${GREEN}$NODEIP:$COIN_PORT${NC}"
+ echo -e "MASTERNODE PRIVATEKEY is: ${GREEN}$COINKEY${NC}"
+ echo -e "Check if $COIN_NAME is running by using the following command:\n${GREEN}ps -ef | grep $COIN_DAEMON | grep -v grep${NC}"
  echo -e "================================================================================"
 }
 

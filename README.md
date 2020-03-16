@@ -23,20 +23,6 @@ sudo ./automn.sh
 ```
 Change the permissions:
 ```chmod +x automn.sh```
-Prepare the windows wallet:
-Go to debug console and type:
-```
-getnewaddress MN1
-```
-Send 15.000 REEX to the address and let it atleast confirm by 1 block<br><br>
-Generate the MN key  (in debug console)and save in txt:
-```
-masternode genkey
-```
-Go back to vps and execute the file reemn16.sh:
-```
-sudo ./reemn18.sh
-```
 2. Wait, let it ask for genkey then put it by pressing control+V to paste the info you got in step 3c and press enter to go on.
 3. Let it finish and note the IP:PORT given at the end of the script execution
 4. Go back to your windows wallet (in debug console) and generate masternode outputs:

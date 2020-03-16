@@ -10,7 +10,7 @@ COIN_DAEMON="reecored"
 COIN_CLI="reecore-cli"
 COIN_NAME='Reecore'
 COIN_PORT=45210
-COIN_boot='https://github.com/reecore-coin/Reex-MN/releases/download/21.02.20/bootstrap.dat'
+COIN_boot='https://github.com/reecore-coin/Reex-MN/releases/download/16.03.20/bootstrap.dat'
 NODEIP=$(curl -s4 icanhazip.com)
 
 RED='\033[0;31m'

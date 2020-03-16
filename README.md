@@ -7,11 +7,6 @@
 git clone https://github.com/reecore-coin/Reex-MN.git
 cd Reex-MN
 ```
-<b> For Ubuntu 16x </b><br><br>
-Change the permissions:
-```
-chmod +x reemn16.sh
-```
 Prepare the windows wallet:<br>
 Go to debug console and type:
 ```
@@ -22,13 +17,12 @@ Generate the MN key  (in debug console)and save in txt:
 ```
 masternode genkey
 ```
-Go back to vps and execute the file reemn16.sh:
+Go back to vps and execute the file automn.sh:
 ```
-sudo ./reemn16.sh
+sudo ./automn.sh
 ```
-<b> For Ubuntu 18x </b><br><br>
 Change the permissions:
-```chmod +x reemn18.sh```
+```chmod +x automn.sh```
 Prepare the windows wallet:
 Go to debug console and type:
 ```

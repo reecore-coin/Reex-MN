@@ -4,8 +4,8 @@ CONFIG_FILE='Reecore.conf'
 CONFIGFOLDER='/root/.Reecore'
 COIN_PATH='/usr/local/bin/'
 #64 bit only
-COIN_TGZ='https://github.com/reecore-coin/Reex/releases/download/v1.4.1.0/Reecore-v1.4.1.0.tar.gz'
-COIN_PATHPART='Reecore-v1.4.1.0'
+COIN_TGZ='https://github.com/reecore-coin/Reex/releases/download/v1.4.2.2/Reex-v1.4.2.2-ubuntu.static.tar.gz'
+COIN_PATHPART='Reex-v1.4.2.2-ubuntu.static'
 COIN_DAEMON="reecored"
 COIN_CLI="reecore-cli"
 COIN_NAME='Reecore'
